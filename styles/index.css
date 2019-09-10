@@ -1,0 +1,39 @@
+html {
+    background-color: #202021;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.myname{
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 400;
+}
+h3 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 200;
+}
+/* style the top navigation bar */
+.navbar {
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.navbar a:hover{
+    color: steelblue;
+}
